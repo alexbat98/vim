@@ -6,7 +6,8 @@ Plug 'git://github.com/dracula/vim.git'
 Plug 'git://github.com/airblade/vim-gitgutter.git'
 Plug 'git://github.com/itchyny/lightline.vim.git'
 Plug 'git://github.com/nathanaelkane/vim-indent-guides.git'
-Plug 'ntpeters/vim-better-whitespace'
+Plug 'git://github.com/ararslan/llvm.vim.git'
+Plug 'git://github.com/ntpeters/vim-better-whitespace.git'
 call plug#end()
 
 syntax on
@@ -22,3 +23,5 @@ let g:gitgutter_grep=''
 map <C-g> :GitGutterToggle<CR>
 let g:indent_guides_enable_on_vim_startup = 1
 let g:better_whitespace_enabled=1
+set expandtab
+set tabstop=4
